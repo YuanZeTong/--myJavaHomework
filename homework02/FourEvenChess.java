@@ -108,6 +108,10 @@ public class FourEvenChess {
 					if(composition[i][j] == rOrY && composition[i + 1][j + 1] == rOrY &&
 						composition[i + 2][j + 2] == rOrY && composition[i + 3][j + 3] == rOrY)
 						ans = true;
+				if(i + 3 < 6 && j - 3 > -1)
+					if(composition[i][j] == rOrY && composition[i + 1][j - 1] == rOrY &&
+							composition[i + 2][j - 2] == rOrY && composition[i + 3][j - 3] == rOrY)
+						ans = true;
 			}
 		}
 		if(ans)
