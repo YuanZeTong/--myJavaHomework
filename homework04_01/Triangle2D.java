@@ -1,4 +1,4 @@
-package homework04;
+package homework04_01;
 
 public class Triangle2D {
 	private MyPoint p1, p2, p3;

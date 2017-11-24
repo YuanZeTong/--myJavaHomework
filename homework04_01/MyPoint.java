@@ -1,4 +1,4 @@
-package homework04;
+package homework04_01;
 import java.lang.*;
 public class MyPoint {
 	private double x;

@@ -1,4 +1,4 @@
-package homework04;
+package homework04_01;
 
 public class Line {
 	private MyPoint p1, p2;
