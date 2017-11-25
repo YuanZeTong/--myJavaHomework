@@ -10,9 +10,9 @@ public class Triangle2D {
 		p3 = new MyPoint(2,5);
 	}
 	public Triangle2D(MyPoint p1, MyPoint p2, MyPoint p3){
-		this.p1 = p1;
-		this.p2 = p2;
-		this.p3 = p3;
+		this.p1 = new MyPoint(p1.getX(),p1.getY());
+		this.p2 = new MyPoint(p2.getX(),p2.getY());
+		this.p3 = new MyPoint(p3.getX(),p3.getY());
 	}
 	//返回三角形面积的方法
 	public double getArea(){
